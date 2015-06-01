@@ -44,6 +44,10 @@ public class Lab1Tests {
         //assert
         assertEquals(l.fileName, fileString); //passed in properly
         assertNotNull(l.fileReader);
+        assertNotNull(l.buffRead);
+        //now needs to read line-by-line into array
+        assertNotNull(l.unsortedRead);
+        assertNotNull(l.unsortedRead[1]);
 
 
 
